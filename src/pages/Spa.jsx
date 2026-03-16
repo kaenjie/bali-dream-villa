@@ -46,14 +46,14 @@ export default function Spa() {
         minHeight: "100vh",
         fontFamily: "'Cormorant Garamond', Georgia, serif",
         position: "relative",
+        background: "linear-gradient(135deg,#6b5344 0%,#4a3728 100%)",
       }}
     >
       <style>{`
 
         .spa-page{
-          opacity:0;
-          transform:translateY(20px);
-          transition:opacity .7s ease, transform .7s ease;
+          opacity:1;
+          transform:translateY(0);
         }
 
         .spa-page.show{
