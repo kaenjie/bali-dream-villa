@@ -7,9 +7,6 @@ import PromotionsSection from "../components/home/PromotionsSection";
 import HeadOfficeSection from "../components/home/HeadOfficeSection";
 import FollowUsSection from "../components/home/FollowUsSection";
 import FooterCopyright from "../components/FooterCopyright";
-import canggu from "../assets/promotions/canggu.jpg";
-import seminyak from "../assets/promotions/seminyak.jpg";
-import suite from "../assets/promotions/suite.jpg";
 
 export default function Home() {
   const footerRef = useRef(null);
@@ -30,7 +27,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-full max-w-md mx-auto font-cormorant bg-[#1a1208] min-h-screen">
+    <div className="w-full font-cormorant bg-[#1a1208] min-h-screen">
       {/* Hero Image */}
       <div className="relative h-[260px] w-fully">
         <img
